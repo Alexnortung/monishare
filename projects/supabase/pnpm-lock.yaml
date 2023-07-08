@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   supabase:
-    specifier: ^1.68.6
-    version: 1.68.6
+    specifier: ^1.75.3
+    version: 1.75.3
 
 packages:
 
@@ -114,8 +114,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /supabase@1.68.6:
-    resolution: {integrity: sha512-3+0SBoY4oRZ1GkDUkMaUfsIAk0ofhw0EntJJo+GZNrciXE0lDZ7AX31g63AyJ1yfNxElbYBcrWIMtsZgeDG35w==}
+  /supabase@1.75.3:
+    resolution: {integrity: sha512-o6rd6v09QstJACYbcNPHaPPnCSi6CO5o2g4ZiZ45V+RYBQasPk8UCOqzJEzi/Ahizq3rb1bJBdwYdEpDmlepPg==}
     engines: {npm: '>=8'}
     hasBin: true
     requiresBuild: true
