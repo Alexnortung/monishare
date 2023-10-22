@@ -1,5 +1,7 @@
 import { IMonishareClientAuth } from './auth';
+import { IMonishareClientPost } from './post';
 
 export interface IMonishareClient<LoginData = any> {
-    auth: IMonishareClientAuth<LoginData>;
+    readonly auth: IMonishareClientAuth<LoginData>;
+    readonly post: IMonishareClientPost;
 }

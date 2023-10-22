@@ -15,16 +15,16 @@ type PostSharer = {
 );
 
 export interface IMonisharePost {
-    id: string;
+    id: Id;
     createdAt: Date;
     /**
      * The id of the user who created this post.
      */
-    createdBy: Id;
+    createdBy: Id | null;
     /**
      * The amount of money that was put out in total
      */
-    amount: number;
+    amount?: number | null;
     /**
      * The users that put out money and how much
      */
