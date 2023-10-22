@@ -2,9 +2,10 @@
     "name": "monishare-supabase",
     "private": true,
     "scripts": {
-        "supabase": "supabase"
+        "supabase": "supabase",
+        "types": "supabase gen types typescript --local > ../client/src/supabase/types/db.ts"
     },
     "devDependencies": {
-        "supabase": "^1.75.3"
+        "supabase": "^1.106.1"
     }
 }
