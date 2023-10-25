@@ -8,22 +8,25 @@
     },
     "type": "module",
     "devDependencies": {
-        "@unocss/transformer-directives": "^0.53.4",
-        "@unocss/transformer-variant-group": "^0.53.4",
-        "autoprefixer": "^10.4.13",
-        "postcss": "^8.4.21",
-        "solid-start-node": "^0.2.19",
-        "typescript": "^4.9.4",
-        "unocss": "^0.53.4",
-        "vite": "^4.1.4"
+        "@unocss/transformer-directives": "^0.57.1",
+        "@unocss/transformer-variant-group": "^0.57.1",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.31",
+        "sass": "^1.69.4",
+        "solid-start-node": "^0.3.8",
+        "typescript": "^5.2.2",
+        "unocss": "^0.57.1",
+        "vite": "^4.5.0"
     },
     "dependencies": {
-        "@solidjs/meta": "^0.28.2",
-        "@solidjs/router": "^0.8.2",
-        "@unocss/reset": "^0.53.4",
-        "solid-js": "^1.7.2",
-        "solid-start": "^0.2.26",
-        "undici": "^5.15.1"
+        "@modular-forms/solid": "^0.20.0",
+        "@solidjs/meta": "^0.28.6",
+        "@solidjs/router": "^0.8.3",
+        "@unocss/reset": "^0.57.1",
+        "monishare-client": "file:../client/",
+        "solid-js": "^1.8.3",
+        "solid-start": "^0.3.8",
+        "undici": "^5.26.5"
     },
     "engines": {
         "node": ">=16"

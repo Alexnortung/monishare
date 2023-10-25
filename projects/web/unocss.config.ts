@@ -6,4 +6,10 @@ export default defineConfig({
     presets: [presetUno(), presetIcons()],
 
     transformers: [transformerVariantGroup(), transformerDirectives()],
+
+    theme: {
+        borderRadius: {
+            DEFAULT: '0.5rem',
+        },
+    },
 });

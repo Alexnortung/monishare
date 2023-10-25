@@ -1,0 +1,14 @@
+.btn {
+    @apply px-4 py-3;
+    border-radius: theme('borderRadius.DEFAULT');
+    background-color: theme('colors.dark.500');
+    color: theme('colors.white');
+}
+
+.input {
+    @apply block w-full px-4 py-3 rounded border border-$border-color;
+
+    &[aria-invalid='true'] {
+        @apply border-$error;
+    }
+}

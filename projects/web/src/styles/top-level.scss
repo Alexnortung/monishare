@@ -1,0 +1,10 @@
+:root {
+    --border-color: theme('colors.gray.200');
+    --primary: theme('colors.blue.600');
+    --error: theme('colors.red.600');
+}
+
+html,
+body {
+    height: 100%;
+}
